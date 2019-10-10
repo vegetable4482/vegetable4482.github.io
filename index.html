@@ -1,4 +1,7 @@
 <!DOCTYPE HTML>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- fontawesome -->
+<link href="${pageContext.request.contextPath }/webjars/font-awesome/5.9.0/css/all.css"  rel="stylesheet">
 <!--
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
@@ -6,11 +9,11 @@
 -->
 <html>
 	<head>
-		<title>Stellar by HTML5 UP</title>
+		<title>Portfolio | CSJ</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -18,20 +21,18 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.svg" alt="" /></span>
-						<h1>Stellar</h1>
-						<p>Just another free, fully responsive site template<br />
-						built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<span class="logo"><img src="${pageContext.request.contextPath }/resources/img/image.png" alt="" /></span>
+						<h1>Choi So Jeong</h1>
+						<p>웹디자이너에서 웹개발자로</p>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">First Section</a></li>
+							<li><a href="#first">My Skills</a></li>
 							<li><a href="#second">Second Section</a></li>
 							<li><a href="#cta">Get Started</a></li>
 						</ul>
@@ -45,46 +46,87 @@
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
-											<h2>Ipsum sed adipiscing</h2>
+											<h2>저를 소개합니다</h2>
 										</header>
-										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+										
+								    <span><i class="fas fa-angle-double-right"></i> 이 구역의 끈기보스</span>
+										<p>먼저 저의 큰 장점은 끈기가 대단하다는 것입니다. 안되는 것을 되게끔 하고, 한 번 시작한 일은 끝을 맺어야 한다는 생각을 가지며 꿋꿋이 맡은 일에 임합니다. 코딩을 하다가도 오류가 뜨거나 잘 안되면 해결될 때까지
+										앉은 자리에서 꿈쩍도 하지 않고 노력하곤 했습니다.</p>
+										<span><i class="fas fa-angle-double-right"></i> 왜 디자인을 하다가 프로그래밍으로?</span>
+										<p>저는 컴퓨터에 관심이 많아</p>
+								  	<span><i class="fas fa-angle-double-right"></i> 으아아 사회활동 적을거임</span>
+										<p>으아아 프로젝트 얘기 쓸거임</p>
+										<span><i class="fas fa-angle-double-right"></i> 으아아 지원동기랑 포부 적을거임</span>
+										<p>돈벌려고 지원했습니다</p>
 										<ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
 										</ul>
 									</div>
-									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+<!-- 									<span class="image"><img src="images/pic01.jpg" alt="" /></span> -->
 								</div>
 							</section>
 
 						<!-- First Section -->
-							<section id="first" class="main special">
+							<section id="first" class="main">
 								<header class="major">
-									<h2>Magna veroeros</h2>
+									<h2>My Skills</h2>
 								</header>
-								<ul class="features">
-									<li>
-										<span class="icon major style1 fa-code"></span>
-										<h3>Ipsum consequat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3>Amed sed feugiat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-									<li>
-										<span class="icon major style5 fa-diamond"></span>
-										<h3>Dolor nullam</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-								</ul>
-								<footer class="major">
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
+							
+								<div class="row align-center my-5">
+									<div class="col-1">
+										<i class="fa fa-html5 fa-4x" style="color:orange;" aria-hidden="true"></i>
+								</div>
+									<div class="col-7 mx-5">
+										<div class="row skillTitle">HTML5/CSS</div>
+										<div class="row skillContent">HTML5 기본 태그 활용 가능</div>
+										<div class="row skillContent">기본 CSS 사용 가능</div>
+									</div>
+								</div>
+									
+								<div class="row align-center  my-5">
+									<div class="col-1">
+										<i class="fab fa-java fa-4x" style="color:skyblue;"></i>
+									</div>
+									<div class="col-7 mx-5">
+										<div class="row skillTitle">Java</div>
+										<div class="row skillContent">자바의 기본 기술 숙지 및 이를 이용하여 어플리케이션 가능</div>
+										<div class="row skillContent">클라이언트 / 서버 기반 어플리케이션 프로그래밍 가능</div>
+										<div class="row skillContent">JSP / Servlet 기본 기술 숙지</div>
+										<div class="row skillContent">HttpServletRequest / HttpServletResponse, DoGet/DoPost 등 class 및 메서드 사용 가능</div>
+										<div class="row skillContent">JAVA Bean을 활용, Set / Get 메서드를 통해 Oracle DataBase와 연동하여 DB 입출력</div>
+										<div class="row skillContent">페이지간 객체 전달 및 Session Bean 으로 site 내 상태 유지</div>
+										<div class="row skillContent">웹 프로그램과 Database 연동한 관리 웹 서비스 어플리케이션 개발 가능</div>
+										<div class="row skillContent"></div>
+									 </div>
+								</div>
+									
+								<div class="row align-center my-5">
+									<div class="col-1">
+										<i class="fa fa-database fa-4x "></i>
+										</div>
+									<div class="col-7 mx-5">
+									<div class="row skillTitle">Oracle 18c expression</div>
+									<div class="row skillContent">DBMS 구축 / 운영 / 관리</div>
+									<div class="row skillContent">Database 설계, 테이블 모델링</div>
+									</div>
+							  </div>
+							  
+								<div class="row align-center my-5">
+									<div class="col-1">
+										<img src="${pageContext.request.contextPath }/resources/img/springframework.png" width="85px;" alt="" />
+										</div>
+									<div class="col-7 mx-5">
+									<div class="row skillTitle">Spring Framework</div>
+									<div class="row skillContent">Java Application 개발, JSP / Serblet Program 개발 가능</div>
+									<div class="row skillContent">JSP, Servlet 등 웹 프로그램을 Model2 방식으로 구현 가능</div>
+									<div class="row skillContent"></div>
+									<div class="row skillContent"></div>
+									<div class="row skillContent"></div>
+									</div>
+							  </div>
+								
+								
+								
+								
 							</section>
 
 						<!-- Second Section -->
@@ -172,6 +214,7 @@
 					</footer>
 
 			</div>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
