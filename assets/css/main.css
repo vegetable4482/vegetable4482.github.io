@@ -11,7 +11,8 @@
 */
 
 /* Reset */
-
+	
+		
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -28,7 +29,6 @@
 	body {
 		line-height: 1;
 	}
-
 	ol, ul {
 		list-style: none;
 	}
@@ -1176,7 +1176,10 @@
 		}
 
 	}
-
+	/* 보더 */
+	*{
+/* 	outline:#ccc 1px solid; */
+	} 
 	@media screen and (max-width: 480px) {
 
 		.row > * {
@@ -1892,9 +1895,34 @@
 	.box {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
+	.portfolioText{
+		color:#333333;
+		font-size:100px;
+		font-weight:800;
+		}
+		.portfolioText2{
+		font-size:1.2rem;
+		/* background-color:#e37682; */
+		/* color:white; */
+		
+		font-family: 'NanumSquare';
+		}
+		.portfolioCont{
+		color:#424242;
+		font-size:15px;
+		font-weight:500;
+		}
+	.textBold{
+	font-weight:500;
+	background-color:#f8f0ff;
+	font-size:17px;
+	
+	}
 
 /* Button */
-
+	.portBtn{
+     box-shadow: inset 0 0 0 1px #dddddd
+	}
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -1915,7 +1943,7 @@
 		font-weight: 300;
 		height: 2.75em;
 		line-height: 2.75em;
-		min-width: 9.25em;
+		min-width: 5.25em;
 		padding: 0 1.5em;
 		text-align: center;
 		text-decoration: none;
@@ -2376,7 +2404,8 @@
 		.icon.style5 {
 			color: #8cc9f0;
 		}
-
+		
+		
 		@media screen and (max-width: 1680px) {
 
 			.icon.major:before {
@@ -3044,11 +3073,16 @@
 			}
 			.spotlight .content span{
 			font-size:1.3rem;
+			font-family: 'NanumSquare';
 			padding:5px;
+    		font-weight:bold;
+    		color:#1C1C1C;
+    		
 			}
     	.spotlight .content p{
-    	font-size:1rem;
+    	font-size:0.9rem;
     	padding-left:20px;
+    	color:#1C1C1C;
     	}
 
 		.spotlight .image {
@@ -3118,7 +3152,7 @@
 /* Header */
 
 	#header {
-		padding: 5em 5em 1em 5em ;
+		padding: 2em 5em 1em 5em ;
 		text-align: center;
 	}
 
@@ -3127,9 +3161,10 @@
 		}
 
 		#header p {
-			font-size: 1em;
-		  font-family: 'NanumSquare';
-			letter-spacing: -0.025em;
+			font-size: 1.1rem;
+		  	font-family: 'NanumSquare';
+			letter-spacing: 3px;
+			color:white;
 		}
 
 		#header.alt {
@@ -3170,7 +3205,7 @@
 					margin: 0 auto;
 					max-width: 75%;
 					width: 140px;
-				  border-radius: 120px;
+				  border-radius: 90px;
 					
 				}
 
@@ -3402,7 +3437,7 @@
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color:#1C1C1C;
 		}
 
 		#main blockquote {
@@ -3428,7 +3463,7 @@
 		#main button,
 		#main .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 1px #dddddd;
+			/* box-shadow: inset 0 0 0 1px #dddddd; */
 			color: #636363 !important;
 		}
 

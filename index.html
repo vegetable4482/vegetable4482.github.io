@@ -1,38 +1,102 @@
 <!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>CSJ : Portpolio</title>
+		<title>CSJ : Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/circle.css" />
+	    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.css"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	</head>
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+   <script src="assets/js/slick.js" type="text/javascript" charset="utf-8"></script>
+	<style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
 
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
+	  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3
+      });
+    
+    });
+</script>
+	
 	<body>
 
+            <div class="clearfix">
+
+               
+			</div>
 		<!-- Wrapper -->
 			<div id="wrapper">
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo"><img src="images/sojeong.jpg" alt="" /></span>
+						<span class="logo"><img src="images/sojeong3.jpg" alt="" /></span>
 						<h1>Choi So Jeong</h1>
 						<p>웹디자이너에서 웹개발자로</p>
+						
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">My Skills</a></li>
-							<li><a href="#second">Second Section</a></li>
-							<li><a href="#cta">Get Started</a></li>
+							<li><a href="#intro" class="active" style="color:#424242">Introduction</a></li>
+							<li><a href="#first" style="color:#424242">My Skills</a></li>
+							<li><a href="#second" style="color:#424242">Portfolio</a></li>
+							<li><a href="#cta" style="color:#424242">PS&Illust</a></li>
 						</ul>
 					</nav>
 
@@ -47,17 +111,21 @@
 											<h2>저를 소개합니다</h2>
 										</header>
 										
-								    <span><i class="fas fa-angle-double-right"></i> 이 구역의 끈기보스</span>
-										<p>먼저 저의 큰 장점은 끈기가 대단하다는 것입니다. 안되는 것을 되게끔 하고, 한 번 시작한 일은 끝을 맺어야 한다는 생각을 가지며 꿋꿋이 맡은 일에 임합니다. 코딩을 하다가도 오류가 뜨거나 잘 안되면 해결될 때까지
-										앉은 자리에서 꿈쩍도 하지 않고 노력하곤 했습니다.</p>
-										<span><i class="fas fa-angle-double-right"></i> 왜 디자인을 하다가 프로그래밍으로?</span>
-										<p>저는 컴퓨터에 관심이 많아</p>
-								  	<span><i class="fas fa-angle-double-right"></i> 으아아 사회활동 적을거임</span>
-										<p>으아아 프로젝트 얘기 쓸거임</p>
-										<span><i class="fas fa-angle-double-right"></i> 으아아 지원동기랑 포부 적을거임</span>
-										<p>돈벌려고 지원했습니다</p>
-										<ul class="actions">
-										</ul>
+								    <span><i class="fa fa-angle-double-right"></i> 이 구역의 끈기보스</span>
+										<p>저의 큰 장점은 끈기가 대단하다는 것입니다. 안되는 것을 되게끔 하고, 한 번 시작한 일은 끝을 맺어야 한다는 생각을 가지며 꿋꿋이 맡은 일에 임합니다. 코딩을 하다가도 오류가 뜨거나 잘 안되면 해결될 때까지
+										앉은 자리에서 꿈쩍도 하지 않고 노력하곤 했습니다. 그리고 항상 주어진 일에 최선을 다하며 주위 사람들로부터 책임감이 강하다는 말을 자주 듣습니다. 그래서 학원 수료 프로젝트 때 제가 팀장은 아니었지만
+										네가 팀장이 아니었냐라는 소리를 자주 들을 정도로 열심히 하였습니다. 저는 앞으로의 직장생활에서도 저의 끈기와 노력이 끊임없이 발휘할 것입니다. </p>
+								  	<span><i class="fa fa-angle-double-right"></i> 긍정의 힘!</span>
+										<p>저는 학원 수료 프로젝트에 참여하였습니다. 프로젝트 초반인 기획하고 설계하는 단계에서 팀원들이 참여율도 적고 수동적인 태도여서 진행하는 데에 많은 어려움이 있었습니다.
+										   하지만 포기하지 않고 팀원들에게 긍정의 말을 계속해주며 남들보다 두 배 더 노력하였습니다. 그러다 프로젝트 중반 즈음 코드를 작성하는 과정에서 팀원들 모두 열심히 하는 모습이 보였습니다.
+										   수업이 끝난 뒤에도 학원에 남아 열심히 하는 그 모습을 보면서 정말 뿌듯했고 더 열심히 해야겠다는 생각이 들었습니다. 처음 해본 프로젝트였기 때문에 쉽지만은 않았지만 성공적으로 프로젝트를 끝마무리 할 수 있었습니다.
+										   이런 저의 긍정적인 마인드와 팀원들과의 소통방식은 귀사에 꼭 도움이 될 것이라고 생각합니다.</p>
+				
+										<span><i class="fa fa-angle-double-right"></i> 왜 디자인을 하다가 프로그래밍으로?</span>
+										<p>이전 회사에서 웹페이지 디자인을 하면서 학생 때 공부했던 HTML을 가끔 접할 때가 있었습니다. 그럴 때 마다 코딩에 대한 흥미와 욕심이 생겨 더 배우고 싶은 마음이 커졌었습니다.
+										그리고 내가 디자인한 작업물들을 직접 웹으로 구현해보고 싶다라는 생각이 들어 코딩을 제대로 배우고 싶었습니다. 그리하여 퇴사를 결정하게 되었고 학원을 등록해서 배우게 되었습니다.
+										자바 양성과정을 훈련하면서 코드를 작성하고 오류를 고치며 결과물을 산출하는 과정이 정말 행복했습니다. 앞으로 나올 최신기술들을 끊임없이 연구하여 가장 효율적인 방법으로 도움이 되도록 하겠습니다.
+										</p>
 									</div>
 <!-- 									<span class="image"><img src="images/pic01.jpg" alt="" /></span> -->
 								</div>
@@ -65,163 +133,288 @@
 
 						<!-- First Section -->
 							<section id="first" class="main">
-								<header class="major">
-									<h2>My Skills</h2>
+								<header class="major align-center">
+									<h2>Skills : Front-end</h2>
 								</header>
-							
-								<div class="row align-center my-5">
-									<div class="col-1">
-										<i class="fa fa-html5 fa-4x" style="color:orange;" aria-hidden="true"></i>
+								<div class="row justify-content-center">
+								<div class="col-2 text-align-center px-3 mx-2">
+								  <div class="c100 p95 big" >
+						                  <span>95%</span>
+						                    <div class="slice">
+						                        <div class="bar"></div>
+						                        <div class="fill"></div>
+						                    </div>					                  
+						         </div>
+						             <div class="text-center">HTML/CSS</div>
 								</div>
-									<div class="col-7 mx-5">
-										<div class="row skillTitle">HTML5/CSS</div>
-										<div class="row skillContent">HTML5 기본 태그 활용 가능</div>
-										<div class="row skillContent">기본 CSS 사용 가능</div>
-									</div>
+								<div class="col-2 text-align-center px-3 mx-2">
+								  <div class="c100 p85 big" >
+						                  <span>85%</span>
+						                    <div class="slice">
+						                        <div class="bar"></div>
+						                        <div class="fill"></div>
+						                    </div>					                  
+						         </div>
+						             <div class="text-center">Java Script</div>
 								</div>
-									
-								<div class="row align-center  my-5">
-									<div class="col-1">
-										<i class="fab fa-java fa-4x" style="color:skyblue;"></i>
-									</div>
-									<div class="col-7 mx-5">
-										<div class="row skillTitle">Java</div>
-										<div class="row skillContent">자바의 기본 기술 숙지 및 이를 이용하여 어플리케이션 가능</div>
-										<div class="row skillContent">클라이언트 / 서버 기반 어플리케이션 프로그래밍 가능</div>
-										<div class="row skillContent">JSP / Servlet 기본 기술 숙지</div>
-										<div class="row skillContent">HttpServletRequest / HttpServletResponse, DoGet/DoPost 등 class 및 메서드 사용 가능</div>
-										<div class="row skillContent">JAVA Bean을 활용, Set / Get 메서드를 통해 Oracle DataBase와 연동하여 DB 입출력</div>
-										<div class="row skillContent">페이지간 객체 전달 및 Session Bean 으로 site 내 상태 유지</div>
-										<div class="row skillContent">웹 프로그램과 Database 연동한 관리 웹 서비스 어플리케이션 개발 가능</div>
-										<div class="row skillContent"></div>
-									 </div>
+								<div class="col-2 text-align-center px-3 mx-2">
+								  <div class="c100 p95 big" >
+						                  <span>95%</span>
+						                    <div class="slice">
+						                        <div class="bar"></div>
+						                        <div class="fill"></div>
+						                    </div>					                  
+						         </div>
+						             <div class="text-center">jQuery</div>
 								</div>
-									
-								<div class="row align-center my-5">
-									<div class="col-1">
-										<i class="fa fa-database fa-4x "></i>
-										</div>
-									<div class="col-7 mx-5">
-									<div class="row skillTitle">Oracle 18c expression</div>
-									<div class="row skillContent">DBMS 구축 / 운영 / 관리</div>
-									<div class="row skillContent">Database 설계, 테이블 모델링</div>
-									</div>
-							  </div>
-							  
-								<div class="row align-center my-5">
-									<div class="col-1">
-										<img src="${pageContext.request.contextPath }/resources/img/springframework.png" width="85px;" alt="" />
-										</div>
-									<div class="col-7 mx-5">
-									<div class="row skillTitle">Spring Framework</div>
-									<div class="row skillContent">Java Application 개발, JSP / Serblet Program 개발 가능</div>
-									<div class="row skillContent">JSP, Servlet 등 웹 프로그램을 Model2 방식으로 구현 가능</div>
-									<div class="row skillContent"></div>
-									<div class="row skillContent"></div>
-									<div class="row skillContent"></div>
-									</div>
-							  </div>
+								<div class="col-2 text-align-center px-3 mx-2">
+								  <div class="c100 p80 big" >
+						                  <span>80%</span>
+						                    <div class="slice">
+						                        <div class="bar"></div>
+						                        <div class="fill"></div>
+						                    </div>					                  
+						         </div>
+						             <div class="text-center">Ajax</div>
+								</div>
+								<div class="col-2 text-align-center px-3 mx-2">
+								  <div class="c100 p70 big" >
+						                  <span>70%</span>
+						                    <div class="slice">
+						                        <div class="bar"></div>
+						                        <div class="fill"></div>
+						                    </div>					                  
+						         </div>
+						             <div class="text-center">React.js</div>
+								</div>
 								
+								</div>
 								
+								<div class="row my-5 "></div>
+								<header class="major align-center">
+									<h2>Skills : Back-end</h2>
+								</header>
+								<div class="row justify-content-center">
+								<div class="col-2 text-align-center px-3 mx-2">
+								  <div class="c100 p95 big" >
+						                  <span>95%</span>
+						                    <div class="slice">
+						                        <div class="bar"></div>
+						                        <div class="fill"></div>
+						                    </div>					                  
+						         </div>
+						             <div class="text-center">Data Base</div>
+								</div>
+								<div class="col-2 text-align-center px-3 mx-2">
+								  <div class="c100 p85 big" >
+						                  <span>85%</span>
+						                    <div class="slice">
+						                        <div class="bar"></div>
+						                        <div class="fill"></div>
+						                    </div>					                  
+						         </div>
+						             <div class="text-center">Java / Jsp</div>
+								</div>
+								<div class="col-2 text-align-center px-3 mx-2">
+								  <div class="c100 p95 big" >
+						                  <span>95%</span>
+						                    <div class="slice">
+						                        <div class="bar"></div>
+						                        <div class="fill"></div>
+						                    </div>					                  
+						         </div>
+						             <div class="text-center">Spring Framework</div>
+								</div>
+								<div class="col-2 text-align-center px-3 mx-2">
+								  <div class="c100 p80 big" >
+						                  <span>80%</span>
+						                    <div class="slice">
+						                        <div class="bar"></div>
+						                        <div class="fill"></div>
+						                    </div>					                  
+						         </div>
+						             <div class="text-center">Restful API</div>
+								</div>
+								<div class="col-2 text-align-center px-3 mx-2">
+								  <div class="c100 p70 big" >
+						                  <span>70%</span>
+						                    <div class="slice">
+						                        <div class="bar"></div>
+						                        <div class="fill"></div>
+						                    </div>					                  
+						         </div>
+						             <div class="text-center">MVC Pattern</div>
+								</div>
 								
+								</div>
 								
 							</section>
 
 						<!-- Second Section -->
 							<section id="second" class="main special">
 								<header class="major">
-									<h2>Ipsum consequat</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon fa-code-fork"></span>
-										<strong>5,120</strong> Etiam
-									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open-o"></span>
-										<strong>8,192</strong> Magna
-									</li>
-									<li class="style3">
-										<span class="icon fa-signal"></span>
-										<strong>2,048</strong> Tempus
-									</li>
-									<li class="style4">
-										<span class="icon fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
-									</li>
-									<li class="style5">
-										<span class="icon fa-diamond"></span>
-										<strong>1,024</strong> Nullam
-									</li>
-								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-								<footer class="major">
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
+									<h2>Portfolio</h2>
+								</header>        
+						         
+						         <div class="row">
+						         <div class="row">
+						         <div class="col">
+						         <img src="images/Portfolio1.gif" width="440px" alt="" /></div>
+						         <div class="col portfolioText align-left">
+						         <span>01</span><span class="portfolioText2">인테리어 스타일 매칭 사이트 : 집중</span>
+						         <hr style="margin-top:0px;">
+						         <p class ="portfolioCont"><span class="textBold">Spring Framework</span>기반으로 인테리어 스타일 매칭 사이트를 만들었습니다.<br>
+						         <span class="textBold">Oracle DB</span>는<span class="textBold"> MyBatis</span>를 통해 연동하였습니다.
+						         <span class="textBold">Bootstrap4</span>를 기반으로 제작되었고 <span class="textBold">AJAX</span>와<span class="textBold"> Restful API</span>도 활용하여 전체적인 UI,UX를 만들었습니다.<br>
+						                    저는 팀에서 매칭 시스템,전체적인 UI 디자인/구축을 하였고  취합 및 테스트 역할을 맡았습니다.<br>
+						         <br>
+								<button type="button" onclick="location.href=' https://youtu.be/pJAXgIZ5BS0' "  class="btn btn-light portBtn">DEMO</button>
+								<button type="button" class="btn btn-light portBtn">REPOS</button>
+								<button type="button" class="btn btn-light portBtn">PDF</button>
+						         </p>
+						         </div>
+						         </div>
+						         </div> 
+							<hr class="m-0 p-0">
+						         <div class="row" style="height:90px;">
+						<section class="center slider my-4 p-0">
+						    <div class="sliderimg">
+						      <img src="images/skills/AJAX.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/Bootstrap.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/spring.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/orcle.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/myBatis.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/jsp.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/date.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/daum.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/JHC.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/jQuery.jpg">
+						    </div>
+						  </section>
+							      </div>
+							     
+							      <div class="my-5 py-4"></div>
+							      
+						         <div class="row">
+						         <div class="row">
+						         <div class="col portfolioText align-left">
+						         <span>02</span><span class="portfolioText2">IT 도서 리뷰 게시판</span>
+						         <hr style="margin-top:0px;">
+						         <p class ="portfolioCont"><span class="textBold">Spring Framework</span>기반으로 IT 도서 리뷰 게시판을 제작하였습니다.<br>
+						         <span class="textBold">Oracle DB</span>는<span class="textBold"> MyBatis</span>를 통해 연동하였습니다.
+						         <span class="textBold">Bootstrap4</span>를 기반으로 제작되었고 <span class="textBold">AJAX</span>를 활용하여 전체적인 UI,UX를 만들었습니다.<br>
+						         <br> 
+								<button type="button" onclick="location.href='https://youtu.be/cdTZ6Ydhq3U' "  class="btn btn-light portBtn">DEMO</button>
+								<button type="button" class="btn btn-light portBtn">REPOS</button>
+								<button type="button" class="btn btn-light portBtn">PDF</button>
+						         </p>
+						         
+						         </div>
+						            <div class="col">
+						         <img src="images/Portfolio2.gif" width="440px" alt="" /></div>
+						         </div>
+						         </div> 
+							<hr class="m-0 p-0">
+						            <div class="row" style="height:90px;">
+						<section class="center slider my-4 p-0">
+						    <div class="sliderimg">
+						      <img src="images/skills/AJAX.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/Bootstrap.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/spring.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/orcle.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/myBatis.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/jsp.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/JHC.jpg">
+						    </div>
+						    <div class="sliderimg">
+						      <img src="images/skills/jQuery.jpg">
+						    </div>
+						  </section>
+							      </div>
+						      <div class="my-5 py-1"></div>
+						 
 							</section>
 
 						<!-- Get Started -->
 							<section id="cta" class="main special">
 								<header class="major">
-									<h2>Congue imperdiet</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>Photoshop & Illustration</h2>
+									
+									<img src="images/illustration1.png" class="my-3" width="800px;" style="filter: drop-shadow(10px 10px 7px #A4A4A4);">
+									<img src="images/illustration2.png" class="my-3" width="800px;" style="filter: drop-shadow(10px 10px 7px #A4A4A4);">
+									<!-- <img src="images/illustration3.jpg" class="my-3 mx-2" width="390px;" style="filter: drop-shadow(10px 10px 7px #A4A4A4);"> -->
+									<!-- <img src="images/illustration4.jpg" class="my-3 mx-2" width="390px;" style="filter: drop-shadow(10px 10px 7px #A4A4A4);"> -->
+								 <p class ="portfolioCont my-4 mx-5 align-left" style="font-size:15px;"><span class="textBold">Photoshop</span>과<span class="textBold">Illustrator</span>을 활용하여 일러스트를 제작하였습니다.
+						       	</p>
 								</header>
-								<footer class="major">
-									<ul class="actions">
-										<li><a href="generic.html" class="button special">Get Started</a></li>
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
 							</section>
 
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
-							<h2>Aliquam sed mauris</h2>
+					<!-- 	<section>
+							<h2>감사의 말씀</h2>
 							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
 							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
+								<li><a href="#l" class="button">TOP</a></li>
 							</ul>
+						</section> -->
+						<section>
+							<h2>Contact Me</h2>
+							<dl class="alt">
+								<dt>Phone</dt>
+								<dd>010)4482-7744</dd>
+								<dt>Email</dt>
+								<dd>qopqopqop00@naver.com</dd>
+							</dl>
 						</section>
 						<section>
-							<h2>Etiam feugiat</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
-								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
-							</dl>
 							<ul class="icons">
-								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<!-- <li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li> -->
+								<!-- <li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li> -->
+								<!-- <li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li> -->
 								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+								<!-- <li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li> -->
 							</ul>
+						
 						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
 
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+	
 
 	</body>
 </html>
